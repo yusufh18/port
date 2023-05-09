@@ -1,0 +1,111 @@
+html{
+    scroll-behavior: smooth;
+    
+}
+body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+    font-size: 1rem;
+    font-family: monospace;
+    
+}
+header{
+    width: 100%;
+    background-color:#0b9df1 ;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 0;
+    align-items: center;
+    background-image: url(../images/cloud.webp);
+    
+
+}
+header h1{
+    background-color: rgb(42, 146, 211);
+    padding: 0.5REM 2rem;
+    font-size: 2.5rem;
+
+}
+header nav ul ,footer nav ul{
+    list-style: none;
+    display: flex;
+    
+    justify-content: space-evenly;
+    padding: 0.5rem 2rem;
+}
+header nav ul li ,footer nav ul li{
+    margin-left: 1rem ;
+
+}
+header nav ul li a ,footer nav ul li a{
+color: black;
+text-decoration: none;
+padding-bottom: 6px;
+border-bottom: 4px solid silver;
+min-width: 100%;
+}
+nav ul li:hover{
+    background-color: slateblue;
+}
+#photo{
+    margin-left: 10px;
+    margin-block-end: 10px;
+}
+#about{
+    background-color: #9df9ef;
+   
+}
+#work{
+    background-color:  #00DDFF;
+    background-image: url(../images/ierde.jpeg);
+    font-size: bold;
+    
+}
+#resume{
+    background-color:  #ffa8B6;
+    background-image: url(../images/0x0.jpg);
+    text-align: center;
+    font-weight: bold;
+    align-items: center;
+   
+   
+}
+#contact{
+    background-color: #c80e13;
+    background-image:url(../images/slamdunk.jpeg) ;
+   
+    
+}
+main {
+    display: flex;
+    justify-content: space-between;
+    padding: 0rem 2rem;
+    flex-direction: column;
+
+}
+main  section ,footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+
+
+}
+main section h2 ,footer h2{
+    flex: 0 0 20%;
+    border-right: 4px solid slategray;
+     min-height: 200px;
+     padding-right: 1rem;
+     text-align: right;
+
+}
+main section article ,footer nav{
+    flex: 0 0 75%;
+    min-height: 200px;
+    
+}
+footer nav ul li:hover{
+    background-color: slateblue;
+}
